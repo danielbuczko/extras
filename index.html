@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Dodatkowe zadania</title>
+  </head>
+  <body>
+    <h1>Tytuł Strony</h1>
+
+    <!-- #31301 -->
+    <button>Wyświetl opis</button>
+    <p id="opis"></p>
+    <p id="tekst"></p>
+    <!-- #31305 -->
+    <button id="dodaj">Dodaj</button>
+    <button id="usun">Usuń</button>
+
+    <!-- #31308 -->
+    <form>
+      <label for="fname">Podaj imię</label><br />
+      <input type="text" name="imie" id="fname" /><br />
+      <label for="surname">Podaj nazwisko</label><br />
+      <input type="text" name="nazwisko" id="sname" /><br />
+      <label for="phone">Podaj telefon</label><br />
+      <input type="tel" name="telefon" id="phoneNr" />
+    </form>
+    <br />
+
+    <button id="displayData">Wyświetl dane</button>
+    <div id="container">
+      <p>Dane:</p>
+      <p id="name"></p>
+      <p id="surname"></p>
+      <p id="phone"></p>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
